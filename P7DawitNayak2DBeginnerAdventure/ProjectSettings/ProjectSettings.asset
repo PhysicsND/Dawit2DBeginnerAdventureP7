@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: a0d15ede69a548941a98af88a9491ce7
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -916,7 +916,7 @@ PlayerSettings:
   cloudProjectId: f4c0f2bc-024c-4f01-990b-1587a16dc33d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: P7DawitNayak2DBeginnerAdventure
+  projectName: 
   organizationId: unity_745422
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1

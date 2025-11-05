@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -19,4 +20,6 @@ public class PlayerController : MonoBehaviour
         position.x = position.x + 0.1f; //moves it right each frame.
         transform.position = position; // applies the new position to the GameObject.
     }
+
+  
 }

@@ -90373,21 +90373,13 @@ PrefabInstance:
     - target: {fileID: 689508622876903366, guid: f86c684485b11ee45ada7b315681b62a,
         type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: 20.04
-=======
       value: 16.26
->>>>>>> d64111c785c3eeadac299e70fb1639dfc99e1756
       objectReference: {fileID: 0}
     - target: {fileID: 689508622876903366, guid: f86c684485b11ee45ada7b315681b62a,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: -2.31
-=======
-      value: -2.9
->>>>>>> d64111c785c3eeadac299e70fb1639dfc99e1756
-      objectReference: {fileID: 0}
+     objectReference: {fileID: 0}
     - target: {fileID: 689508622876903366, guid: f86c684485b11ee45ada7b315681b62a,
         type: 3}
       propertyPath: m_LocalPosition.z

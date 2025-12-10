@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5864519380232917779}
   - component: {fileID: 7078834496232199159}
   - component: {fileID: 5790211801721219382}
+  - component: {fileID: 516090459722647962}
   m_Layer: 0
   m_Name: Ducktoro
   m_TagString: Player
@@ -148,6 +149,9 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
+  speed: 3
+  maxHealth: 5
+  timeInvincible: 2
 --- !u!50 &7078834496232199159
 Rigidbody2D:
   serializedVersion: 4
@@ -172,7 +176,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &5790211801721219382
@@ -220,3 +224,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.77, y: 0.76229274}
   m_EdgeRadius: 0
+--- !u!95 &516090459722647962
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5282166898459004849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

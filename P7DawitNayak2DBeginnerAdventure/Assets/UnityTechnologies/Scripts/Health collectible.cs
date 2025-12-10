@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Healthcollectible : MonoBehaviour
+public class HealthCollectible : MonoBehaviour
 {
 
 
@@ -11,12 +11,10 @@ public class Healthcollectible : MonoBehaviour
         PlayerController controller = other.GetComponent<PlayerController>();
 
 
-        if (controller != null)
+        if (controller != null && controller.health < controller.maxHealth)
         {
             controller.ChangeHealth(1);
             Destroy(gameObject);
         }
-
     }
-
 }
